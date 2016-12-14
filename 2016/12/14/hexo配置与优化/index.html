@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -84,16 +84,25 @@
 
 
 
-<meta name="description" content="使用Hexo搭建个人博客指南1使用Hexo搭建个人博客指南2hexo主题Markdown 编辑器语法指南favicon制作-在线工具NexT主题个性化设置NexT主题的使用和优化">
+<meta name="description" content="使用Hexo搭建个人博客指南1使用Hexo搭建个人博客指南2hexo主题NexT主题配置Markdown 编辑器语法指南favicon制作-在线工具NexT主题个性化设置NexT主题的使用和优化
+##注意事项：
+
+文章中插入图片使用markdown写文章，插入图片的格式为![标题](链接地址)，如果是在sublime中使用MarkdownEditing和OmniMarkupPreviewer，可以">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo配置与优化">
 <meta property="og:url" content="http://yoursite.com/2016/12/14/hexo配置与优化/index.html">
 <meta property="og:site_name" content="Guoting's blog">
-<meta property="og:description" content="使用Hexo搭建个人博客指南1使用Hexo搭建个人博客指南2hexo主题Markdown 编辑器语法指南favicon制作-在线工具NexT主题个性化设置NexT主题的使用和优化">
-<meta property="og:updated_time" content="2016-12-14T03:27:28.168Z">
+<meta property="og:description" content="使用Hexo搭建个人博客指南1使用Hexo搭建个人博客指南2hexo主题NexT主题配置Markdown 编辑器语法指南favicon制作-在线工具NexT主题个性化设置NexT主题的使用和优化
+##注意事项：
+
+文章中插入图片使用markdown写文章，插入图片的格式为![标题](链接地址)，如果是在sublime中使用MarkdownEditing和OmniMarkupPreviewer，可以">
+<meta property="og:updated_time" content="2016-12-14T06:04:51.316Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo配置与优化">
-<meta name="twitter:description" content="使用Hexo搭建个人博客指南1使用Hexo搭建个人博客指南2hexo主题Markdown 编辑器语法指南favicon制作-在线工具NexT主题个性化设置NexT主题的使用和优化">
+<meta name="twitter:description" content="使用Hexo搭建个人博客指南1使用Hexo搭建个人博客指南2hexo主题NexT主题配置Markdown 编辑器语法指南favicon制作-在线工具NexT主题个性化设置NexT主题的使用和优化
+##注意事项：
+
+文章中插入图片使用markdown写文章，插入图片的格式为![标题](链接地址)，如果是在sublime中使用MarkdownEditing和OmniMarkupPreviewer，可以">
 
 
 
@@ -101,7 +110,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -349,7 +358,15 @@
       
 
       
-        <p><a href="http://www.jianshu.com/p/f4dce0e76886" target="_blank" rel="external">使用Hexo搭建个人博客指南1</a><br><a href="http://opiece.me/2015/04/09/hexo-guide/" target="_blank" rel="external">使用Hexo搭建个人博客指南2</a><br><a href="https://hexo.io/themes/" target="_blank" rel="external">hexo主题</a><br><a href="https://segmentfault.com/markdown" target="_blank" rel="external">Markdown 编辑器语法指南</a><br><a href="http://tool.lu/favicon/" target="_blank" rel="external">favicon制作-在线工具</a><br><a href="http://www.jeyzhang.com/next-theme-personal-settings.html" target="_blank" rel="external">NexT主题个性化设置</a><br><a href="http://www.jeyzhang.com/next-theme-personal-settings.html" target="_blank" rel="external">NexT主题的使用和优化</a></p>
+        <p><a href="http://www.jianshu.com/p/f4dce0e76886" target="_blank" rel="external">使用Hexo搭建个人博客指南1</a><br><a href="http://opiece.me/2015/04/09/hexo-guide/" target="_blank" rel="external">使用Hexo搭建个人博客指南2</a><br><a href="https://hexo.io/themes/" target="_blank" rel="external">hexo主题</a><br><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">NexT主题配置</a><br><a href="https://segmentfault.com/markdown" target="_blank" rel="external">Markdown 编辑器语法指南</a><br><a href="http://tool.lu/favicon/" target="_blank" rel="external">favicon制作-在线工具</a><br><a href="http://www.jeyzhang.com/next-theme-personal-settings.html" target="_blank" rel="external">NexT主题个性化设置</a><br><a href="http://www.jeyzhang.com/next-theme-personal-settings.html" target="_blank" rel="external">NexT主题的使用和优化</a></p>
+<p>##注意事项：</p>
+<ol>
+<li>文章中插入图片<br>使用markdown写文章，插入图片的格式为<code>![标题](链接地址)</code>，如果是在sublime中使用MarkdownEditing和OmniMarkupPreviewer，可以使用 <code>mdi</code>+tab快捷生成；<br>这里重点说的是链接地址怎么写<br>对于hexo，使用本地路径：在/source目录下新建一个img文件夹，将图片放入该文件夹下，插入图片时链接即为/img/图片名称。</li>
+<li>设置分类<br>首先，我们通过<code>hexo new &quot;name&quot;</code>命令来新建一个页面，在source/_posts目录下找到刚才新建的name.md文件，用记事本或者sublime text打开。<br>我们看到默认的页面是这样的：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: name</div><div class="line">date: 2016-10-14 11:15:00 </div><div class="line">tags: </div><div class="line">---</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>可以编辑标题、日期、标签和内容，但是没有分类的选项。我们可以手动加入categories:项;<br>如果不想每次手动添加，就可以在根目录下的<code>scaffolds/post.md</code>文件，在tages:上面加入categories:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: &#123;&#123; title &#125;&#125;</div><div class="line">date: &#123;&#123; date &#125;&#125;</div><div class="line">categories:</div><div class="line">tags:</div><div class="line">---</div></pre></td></tr></table></figure></p>
+<p>保存后，每次执行<code>hexo new &#39;name&#39;</code>命令，会发现新建的页面里有<code>categories:</code>项了。</p>
 
       
     </div>
@@ -551,7 +568,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
+    NexT.Mist
   </a>
 </div>
 
@@ -617,13 +634,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
-
-
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
